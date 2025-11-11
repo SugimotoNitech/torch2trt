@@ -7,10 +7,10 @@ from packaging import version
 
 
 def trt_inc_dir():
-    return "/usr/include/aarch64-linux-gnu"
+    return "C:\\Users\\a_takuya.sugimoto\\internship\\instance_segmentation\\yolact_edge\\TensorRT-8.6.1.6\\include"
 
 def trt_lib_dir():
-    return "/usr/lib/aarch64-linux-gnu"
+    return "C:\\Users\\a_takuya.sugimoto\\internship\\instance_segmentation\\yolact_edge\\TensorRT-8.6.1.6\\lib"
 
 ext_modules = []
 exclude_dir = ["torch2trt/contrib","torch2trt/contrib.*"]
